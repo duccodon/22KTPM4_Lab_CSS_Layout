@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(237, 237, 237);
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+header, aside, article, footer, .section {
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.image-box {
+    background-color: lightgray;
+    padding: 1rem;
+    min-height: 30rem;
+    border: 1px solid black;
+}
+
+.section:nth-child(2) {
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+
+.section:nth-child(1) {
+    color:rgb(158, 155, 155);
+    height: 8rem;
+}

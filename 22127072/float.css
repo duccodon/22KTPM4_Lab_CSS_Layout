@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;/*both*/
+}
+
+main {
+    margin: 1rem 0;
+    overflow: hidden;
+}
+
+.image-container{
+    left: 1rem;
+    bottom: 1rem;
+    width: calc(100% + 2rem);
+}
+
+.image-box{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 1rem;
+
+    width: calc((100% - 4rem) / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.section {
+    margin-bottom: 1rem;
+}
+
+.section:nth-child(2){
+    margin-bottom: 2rem;
+}

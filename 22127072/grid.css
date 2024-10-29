@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-self: end; /*canh xuong duoi*/
+}
+
+.section:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
