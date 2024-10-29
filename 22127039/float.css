@@ -1,0 +1,79 @@
+.container{
+    background-color: lightgray;
+    padding: 1rem;
+    color: black;
+    min-height: 500px;
+}
+
+.logo
+{
+    background-color: gray;
+    text-align: left;
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.navigation
+{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.header
+{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 2rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.sidebar
+{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0rem 1rem 1rem 1rem;
+    font-weight: bold;
+    float: left;
+    min-width: 30%;
+    min-height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyarea
+{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0rem 1rem 1rem 1rem;
+    font-weight: bold;
+    clear: right;
+    min-width: 62%;
+    min-height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer
+{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    clear: both;
+}
