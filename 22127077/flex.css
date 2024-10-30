@@ -1,0 +1,51 @@
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+main{
+    margin: 1rem 0;
+    overflow: hidden;
+}
+footer{
+    clear: both;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sidebar{
+    flex-basis: 30%;
+    min-height: 400px;
+    display:flex;
+    margin-right: 1rem ;
+}
+
+.article{
+    flex-basis: calc(70% - 1rem);
+    min-height: 400px;
+    display:flex;
+    flex-direction: column;
+}
+
+.banner{
+    background-color: grey;
+    flex-basis: 30%;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    background-color: grey;
+    flex-basis: calc(70% - 1rem);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

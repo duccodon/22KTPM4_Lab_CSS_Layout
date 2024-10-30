@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(237, 237, 237);
+    padding: 1rem;
+}
+
+footer, .banner, .body{
+    background-color: grey;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sidebar{
+    font-size: 20px;
+}
+
+header{
+    background-color: grey;
+    padding: 1rem;
+    font-size: 35px;
+}
