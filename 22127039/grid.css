@@ -5,6 +5,8 @@
     min-height: 500px;
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .logo
